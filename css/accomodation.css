@@ -1,0 +1,644 @@
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 1px;
+  }
+  .contact{
+    background: rgb(55,125,65);
+    padding:10px 100px 10px 30px;
+    display:none;
+  }
+  .contactus a{
+    color: rgb(255,255,255);
+  }
+  .toparea{
+    background: rgb(33,37,41);
+    display:none;
+    padding:20px;
+  }
+  .topareaa img{
+    padding-left:42.7%;
+  }
+  #navm{
+    overflow: hidden;
+    background:transparent;
+    padding: 0px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+  }
+  .navmenu{
+    padding:40px 150px 0px 100px;
+  }
+  .navbar-nav{
+    width:100%;
+    background-color:none;
+    margin:0px 0px 0px 0px;
+  }
+  .nav-link{
+    color: rgb(255,255,255) !important;
+    font-size:18px !important;
+    padding:0px 18px !important;
+  }
+  .nav-link img{
+    position:relative;
+    top:-35px;
+  }
+  .journey{
+    width:100%;
+    height:300px;
+    position:absolute;
+    left:6%;
+    top:36%;
+    z-index: 50;
+    color: rgb(255,255,245);
+  }
+  .box15 h2{
+    font-size:50px;
+  }
+  .box15 h1{
+    font-size:130px;
+    line-height:60px;
+  }
+  .box16{
+    position:fixed;
+    z-index:60;
+  }
+  .box16 ul{
+    list-style:none;
+  }
+  .box16 ul li a{
+    border:solid 1px rgb(255,255,245);
+    color: rgb(255,255,255);
+  }
+  .slideshow{
+    overflow-x:hidden;
+    position: relative;
+  }
+  .slide{
+    background:none;
+    margin:0;
+    padding: 0;
+  }
+  
+  .con{
+    background-color: rgb(255,255,255);
+    padding:30px 0px;
+  }
+  .content1 h1{
+    color: #a67a35;
+    font-weight:600;
+    font-size:50px;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  .box2{
+    padding:0px 60px 40px 60px;
+    border-right:solid 1px grey;
+  }
+  .box2 h2{
+    color: rgb(122,119,114);
+    text-align:center;
+    font-size:35px;
+  }
+  .box2 ul{
+    list-style:none;
+    margin:20px 50px;
+  }
+  .box2 ul li a{
+    float:left;
+    color:#7A7772;
+    border:solid 1px #7A7772;
+    padding:3px 25px;
+    margin:0px 5px;
+    border-radius:50px;
+    font-size:15px;
+  }
+  .box2 ul li:last-child a{
+    background-color: rgb(166,122,53);
+    color: rgb(255,255,245);
+    border:none;
+  }
+  .box2a{
+    padding:0px 60px 40px 60px;
+  }
+  .box2a h2{
+    color: rgb(122,119,114);
+    text-align:center;
+    font-size:35px;
+  }
+  .box2a ul{
+    list-style:none;
+    margin:20px 50px;
+  }
+  .box2a ul li a{
+    float:left;
+    color:#7A7772;
+    border:solid 1px #7A7772;
+    padding:3px 25px;
+    margin:0px 5px;
+    border-radius:50px;
+    font-size:15px;
+  }
+  .box2a ul li:last-child a{
+    background-color: rgb(166,122,53);
+    color: rgb(255,255,245);
+    border:none;
+  }
+  .section1{
+    background-color: rgb(245,232,223);
+    margin-bottom:30px;
+}
+  .sect1{
+    padding:30px 0px 0px 0px;
+  }
+  .sect1 h1{
+    color: rgb(25,25,25);
+    font-weight:none;
+    font-size:45px;
+    text-align:center;
+  }
+  .sect1 p{
+    font-weight:500;
+    font-size:22px; 
+    padding:0px 20px 20px 20px;
+    color: rgb(25,25,25);
+    text-align:center;
+  }
+
+  .section2{
+    width:100%;
+    height:700px;
+    background-image:url(MokshaSuite.jpg);
+    background-size: cover;
+    margin-bottom:30px;
+  }
+  .box6{
+    height:400px;
+    background-color:none;
+    color: rgb(255,255,255);
+    margin:0% 10% 0% 10%;
+    padding:10px;
+  }
+  .box6 h1{
+    font-size:50px;
+    padding:0px;
+  }
+  .box6 p{
+    font-size:22px; 
+    padding:0px;
+    color:rgb(255,255,255);
+  }
+  .box6 ul{
+    list-style:none;
+    margin:20px 0px;
+  }
+  .box6 ul li a{
+    float:left;
+    color: rgb(255,255,255);
+    border:solid 1px rgb(255,255,245);
+    padding:3px 25px;
+    margin:0px 5px;
+    border-radius:50px;
+  }
+  .box6 ul li:last-child a{
+    background-color: rgb(166,122,53);
+    color: rgb(255,255,245);
+    border:none;
+  }
+  .box6a{
+    background-color: none;
+    position:relative;
+    margin-left:0%;
+    margin-top:49.5%;
+  }
+  @keyframes slide{
+      from{
+          background: url(MokshaSuite2.jpg);
+      }
+      to{
+          background: url(MokshaSuite3.jpg);
+      }
+  }
+  .box6aa{
+      position:absolute;
+      left:28%;
+      width:520px;
+      height:340px;
+      background: url(Presidential-Suite-1.jpg);
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      border:solid 5px rgb(255,255,245);
+  }
+  @keyframes slides{
+    from{
+        background: url(MokshaSuite1.jpg);
+    }
+    to{
+        background: url(Moksha-Suite1.jpg);
+    }
+}
+  .box6ab{  
+    width:350px;
+    height:250px;
+    background:url(Presidential-Suite3.jpg);
+    border:solid 5px rgb(255,255,245); 
+    margin-top:12.5%;
+    position:absolute;
+    left:0%;
+    animation-name: slides;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }  
+  
+  .section4{
+    width:100%;
+    height:700px;
+    background-image:url(RoyalSuite5.jpg);
+    background-size: cover;
+    margin-bottom:30px;
+  }
+  .box19{
+    height:400px;
+    background-color:none;
+    color: rgb(255,255,255);
+    margin:0% 10% 0% 10%;
+    padding:10px;
+  }
+  .box19 h1{
+    font-size:50px;
+    padding:0px;
+  }
+  .box19 p{
+    font-size:22px; 
+    padding:0px;
+    color:rgb(255,255,255);
+  }
+  .box19 ul{
+    list-style:none;
+    margin:20px 0px;
+  }
+  .box19 ul li a{
+    float:left;
+    color: rgb(255,255,255);
+    border:solid 1px rgb(255,255,245);
+    padding:3px 25px;
+    margin:0px 5px;
+    border-radius:50px;
+  }
+  .box19 ul li:last-child a{
+    background-color: rgb(166,122,53);
+    color: rgb(255,255,245);
+    border:none;
+  }
+  .box19a{
+    background-color: none;
+    position:relative;
+    margin-left:0%;
+    margin-top:49.5%;
+  }
+  @keyframes slide1{
+      from{
+          background: url(RoyalSuite8.jpg);
+      }
+      to{
+          background: url(RoyalSuite9.jpg);
+      }
+  }
+  .box19aa{
+      position:absolute;
+      left:28%;
+      width:520px;
+      height:340px;
+      background: url(Presidential-Suite-1.jpg);
+      animation-name: slide1;
+      animation-duration: 4s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      border:solid 5px rgb(255,255,245);
+  }
+  @keyframes slides1{
+    from{
+        background: url(RoyalSuite6.jpg);
+    }
+    to{
+        background: url(RoyalSuite7.jpg);
+    }
+}
+  .box19ab{  
+    width:350px;
+    height:250px;
+    background:url(Presidential-Suite3.jpg);
+    border:solid 5px rgb(255,255,245); 
+    margin-top:12.3%;
+    position:absolute;
+    left:0%;
+    animation-name: slides1;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }  
+
+  .section5{
+    width:100%;
+    height:700px;
+    background-image:url(Presidential-Suite.jpg);
+    padding-top:0%;
+    background-size: cover;
+    margin-bottom:30px;
+  }
+  .box20{
+    height:400px;
+    background-color:none;
+    color: rgb(255,255,255);
+    padding:10px;
+    margin:0% 0% 0% 20%;
+  }
+  .box20 h1{
+    font-size:50px;
+    padding:0px;
+  }
+  .box20 p{
+    font-size:22px; 
+    padding:0px;
+    color:rgb(255,255,255);
+  }
+  .box20 ul{
+    list-style:none;
+    margin:20px 0px;
+  }
+  .box20 ul li a{
+    float:left;
+    color: rgb(255,255,255);
+    border:solid 1px rgb(255,255,245);
+    padding:3px 25px;
+    margin:0px 5px;
+    border-radius:50px;
+  }
+  .box20 ul li:last-child a{
+    background-color: rgb(166,122,53);
+    color: rgb(255,255,245);
+    border:none;
+  }
+  .box20a{
+    background-color: none;
+    position:relative;
+    margin-left:0%;
+    margin-top:49.5%;
+  }
+  @keyframes slide2{
+      from{
+          background: url(Presidential-Suite-1.jpg);
+      }
+      to{
+          background: url(Presidential-Suite-2.jpg);
+      }
+  }
+  .box20aa{
+      position:absolute;
+      left:0%;
+      width:520px;
+      height:340px;
+      background: url(Presidential-Suite-1.jpg);
+      animation-name: slide2;
+      animation-duration: 4s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      border:solid 5px rgb(255,255,245);
+  }
+  @keyframes slides2{
+    from{
+        background: url(RoyalSuite5.jpg);
+    }
+    to{
+        background: url(RoyalSuite6.jpg);
+    }
+}
+  .box20ab{  
+    width:350px;
+    height:250px;
+    background:url(Presidential-Suite3.jpg);
+    border:solid 5px rgb(255,255,245); 
+    margin-top:12.3%;
+    position:absolute;
+    left:55%;
+    animation-name: slides2;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }  
+
+  .bottom{
+    background-color:#F5E8DF;
+    padding:30px;
+  }
+  .bottomarea h1{
+    color:#AF8749;
+    text-align:center;
+    font-size:50px;
+  }
+  .bottomarea p{
+    color: rgb(25,25,25);
+    text-align:center;
+    font-weight:500;
+    font-size:22px;
+  }
+  .bottom2{
+    background-color: rgb(245,232,223);
+    padding:30px 10px;
+  }
+  .bottomarea2 img{
+    padding-left:40%;
+  }
+  .box3 ul{
+    list-style:none;
+    margin:20px 5%;
+  }
+  .box3 ul li a{
+    float:left;
+    color: #443866;
+    padding:10px 10px;
+    margin:0px 5px;
+    font-size:20px;
+  }
+  .box4 h4{
+    margin:20px auto 10px auto;
+    text-align:center;
+    font-size:25px;
+    font-weight:600;
+    color: rgb(25,25,25);
+  }
+  .cprt p{
+    color: rgb(25,25,25);
+    text-align:center;
+  }
+  .box5{
+    margin:10px;
+    padding-left:30%;
+    border:none;
+  }
+  .box5 input{
+    width:300px;
+    height:40px;
+    padding:20px 10px;
+    border:none;
+    border-bottom:solid 1px rgb(25,25,25);
+    border-radius:20px;
+    position:relative;
+    right:0;
+    margin-right:-50px;
+
+}
+.box5 input:focus{
+    outline:none;
+}
+.box5 input[type=submit]{
+  width:150px;
+  font-size:18px;
+  padding:0px 20px;
+  color: rgb(245,232,223);
+  background-color: rgb(25,25,25);
+  border:none;
+  border-bottom:none;
+  position:relative;
+  right:0;
+}
+  @media screen and (max-width:900px){
+    .contact{
+      display:block;
+    }
+    .toparea{
+      display:block;
+    }
+    .topareaa img{
+      padding-left:30%;
+    }
+    #navm{
+      background-color: rgb(255,255,255);
+      padding:0px;
+    }
+    .navmenu{
+      padding:0px;
+    }
+    .navbar-nav{
+      margin:10px 0px 0px 0px;
+    }
+    .nav-link{
+      color: rgb(25,25,25) !important;
+    }
+    .nav-link img{
+      display:none;
+    }
+    .slide{
+      height:300px;
+    }
+    .slide img{
+      height:300px;
+    }
+    .box15 h2{
+      font-size:50px;
+  }  
+  .box15 h1{
+      font-size:80px;
+  }
+  .box6{
+      margin:10% 5%;
+    }
+    .box6a{
+      display:none;
+    }
+    .box7{
+      padding:0px;
+    }
+    .section2{
+      height:550px;
+
+    }
+    .section4{
+      height:550px;
+      padding:5%;
+    }
+    .box19{
+      margin:0%;
+    }
+    .box19a{
+      display:none;
+    }
+    .section5{
+      height:600px;
+      padding:5%;
+    }
+    .box20{
+      margin:0%;
+    }
+    .box20a{
+      display:none;
+    }
+    .box18{
+      margin:0%;
+    }
+    .bottomarea2 img{
+      padding:0% 40%;
+    }
+    .box5{
+      padding-left:10%;
+    }
+    .box5 input{
+      width:250px;
+    }
+  }
+  div.container1 ul li a
+  {
+      color: #FFF;
+      text-decoration: none;
+      font-size: 20px;
+      position: relative;
+      z-index: 0;
+      cursor: pointer;
+  }
+  div.circleBehind a:before, div.circleBehind a:after
+  {
+      position: absolute;
+      top: 18px;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      border: 4px solid rgb(55,55,55);
+      transform: translateX(-50%) translateY(-50%) scale(0.8);
+      border-radius: 50%;
+      background: transparent;
+      content: "";
+      opacity: 0;
+      transition: all 0.3s;
+      z-index: -1;
+  }
+  div.container1 .circleBehind img{
+    border:none;
+  }
+  
+  div.circleBehind a:after
+  {
+      border-width: 2px;
+      transition: all 0.4s;
+  }
+  
+  div.circleBehind a:hover:before
+  {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  
+  div.circleBehind a:hover:after
+  {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1.3);
+  }
+  
+  
