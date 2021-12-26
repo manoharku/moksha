@@ -1,0 +1,585 @@
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 1px;
+  }
+  .contact{
+    background: rgb(55,125,65);
+    padding:10px 100px 10px 30px;
+    display:none;
+  }
+  .contactus a{
+    color: rgb(255,255,255);
+  }
+  .toparea{
+    background: rgb(33,37,41);
+    display:none;
+    padding:20px;
+  }
+  .topareaa img{
+    padding-left:42.7%;
+  }
+  #navm{
+    overflow: hidden;
+    background:transparent;
+    padding: 0px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+  }
+  .navmenu{
+    padding:40px 150px 0px 100px;
+  }
+  .navbar-nav{
+    width:100%;
+    background-color:none;
+    margin:0px 0px 0px 0px;
+  }
+  .nav-link{
+    color: rgb(255,255,255) !important;
+    font-size:18px !important;
+    padding:0px 18px !important;
+  }
+  .nav-link img{
+    position:relative;
+    top:-35px;
+  }
+  .journey{
+    width:100%;
+    height:300px;
+    position:absolute;
+    left:6%;
+    top:36%;
+    z-index: 50;
+    color: rgb(255,255,245);
+  }
+  .box15 h2{
+    font-size:50px;
+  }
+  .box15 h1{
+    font-size:130px;
+    line-height:60px;
+  }
+  .box16{
+    position:fixed;
+    z-index:60;
+  }
+  .box16 ul{
+    list-style:none;
+  }
+  .box16 ul li a{
+    border:solid 1px rgb(255,255,245);
+    color: rgb(255,255,255);
+  }
+  .slideshow{
+    overflow-x:hidden;
+    position: relative;
+  }
+  .slide{
+    background:none;
+    margin:0;
+    padding: 0;
+  }
+  
+  .con{
+    background-color: rgb(255,255,255);
+    padding:30px 0px;
+  }
+  .content1 h1{
+    color: #a67a35;
+    font-weight:600;
+    font-size:50px;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  .box2{
+    padding:0px 60px 40px 60px;
+    border-right:solid 1px grey;
+  }
+  .box2 h2{
+    color: rgb(122,119,114);
+    text-align:center;
+    font-size:35px;
+  }
+  .box2 ul{
+    list-style:none;
+    margin:20px 50px;
+  }
+  .box2 ul li a{
+    float:left;
+    color:#7A7772;
+    border:solid 1px #7A7772;
+    padding:3px 25px;
+    margin:0px 5px;
+    border-radius:50px;
+    font-size:15px;
+  }
+  .box2 ul li:last-child a{
+    background-color: rgb(166,122,53);
+    color: rgb(255,255,245);
+    border:none;
+  }
+  .box2a{
+    padding:0px 60px 40px 60px;
+  }
+  .box2a h2{
+    color: rgb(122,119,114);
+    text-align:center;
+    font-size:35px;
+  }
+  .box2a ul{
+    list-style:none;
+    margin:20px 50px;
+  }
+  .box2a ul li a{
+    float:left;
+    color:#7A7772;
+    border:solid 1px #7A7772;
+    padding:3px 25px;
+    margin:0px 5px;
+    border-radius:50px;
+    font-size:15px;
+  }
+  .box2a ul li:last-child a{
+    background-color: rgb(166,122,53);
+    color: rgb(255,255,245);
+    border:none;
+  }
+  .section1{
+    background-color: rgb(245,232,223);
+    margin-bottom:30px;
+}
+  .sect1{
+    padding:30px 0px 30px 0px;
+  }
+  .sect1 h1{
+    color: rgb(25,25,25);
+    font-weight:none;
+    font-size:45px;
+    text-align:center;
+    
+  }
+  .sect1 p{
+    font-weight:500;
+    font-size:22px; 
+    padding:0px 20px 20px 20px;
+    color: rgb(25,25,25);
+    text-align:center;
+  }
+
+  .contactadd{
+    overflow:hidden;
+  }
+  	/* Conatct start */
+
+    .header-title
+    {
+      text-align: center;
+      color:#00bfff;
+    }
+    #tip 
+    {
+        display:none;  
+    }
+
+    .fadeIn
+    {
+      animation-duration: 3s;
+    }
+
+    .form-control
+    {
+      border-radius:0px;
+      border:1px solid #EDEDED;
+    }
+
+    .form-control:focus
+    {
+      border:1px solid #00bfff;
+    }
+
+    .textarea-contact
+    {
+      resize:none; 
+    }
+
+    .btn-send
+    {
+      border-radius: 0px;
+      border:1px solid #00bfff;
+      background:#00bfff;
+      color:#fff; 
+    }
+
+    .btn-send:hover
+    {
+      border:1px solid #00bfff;
+      background:#fff;
+      color:#00bfff;
+      transition:background 0.5s;   
+    }
+
+    .contactadd{
+      overflow:hidden;
+      margin-bottom:50px;
+    }
+    .second-portion
+    {
+      margin-top:50px; 
+    }
+
+        @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+.box > .icon { 
+  text-align: center; 
+  position: relative; 
+  top:0px;
+}
+.box > .icon > .image { 
+  position: relative; 
+  z-index: 2; 
+  margin: auto; 
+  width: 78px; 
+  height: 78px; 
+  border: 8px solid #443866; 
+  line-height: 88px; 
+  border-radius: 50%; 
+  background: #443866; 
+  vertical-align: middle; 
+}
+.box > .icon:hover > .image { 
+  opacity:0.95;
+}
+.box > .icon > .image > i { 
+  font-size: 36px !important; 
+  color: #fff !important;
+  padding-top:-20px; 
+  transition:all 1s;
+}
+.box > .icon:hover > .image > i {
+   color: white !important; 
+   transform:scale(1.1,1.1);
+   z-index:2;
+  }
+.box > .icon > .info {
+  margin-top: -35px;
+  background: rgba(0, 0, 0, 0.04); 
+  border: 2px solid #443866;
+  padding: 50px 0 10px 0; 
+  min-height:350px;
+  min-width:300px;
+  }
+.box > .icon:hover > .info { 
+  background: rgba(0, 0, 0, 0.04);
+   border-color: #e0e0e0;
+    color: white; 
+}
+.box > .icon > .info > h3.title { 
+  font-family: "Robot",sans-serif !important; 
+  font-size: 18px; 
+  color: #222;
+  font-weight: 700;
+ }
+.box > .icon > .info > p {
+   font-family: "Robot",sans-serif !important; 
+   font-size: 15px; 
+   color: #666; 
+   line-height: 1.5em; 
+   margin: 20px;
+  }
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { 
+  color: #222; 
+}
+.box > .icon > .info > .more a { 
+  font-family: "Robot",sans-serif !important; 
+  font-size: 12px; 
+  color: #222; 
+  line-height: 12px; 
+  text-transform: uppercase; 
+  text-decoration: none; 
+}
+.box > .icon:hover > .info > .more > a { 
+  color: #fff; 
+  padding: 6px 8px; 
+  background-color: #63B76C; 
+}
+.box .space { 
+  height: 30px; 
+}
+
+@media only screen and (max-width: 768px)
+{
+  .contact-form
+  {
+    margin-top:25px; 
+  }
+
+  .btn-send
+  {
+    width: 100%;
+    padding:10px; 
+  }
+
+  .second-portion
+  {
+    margin-top:25px; 
+  }
+}
+/* Conatct end */
+
+  .note{
+    overflow:hidden;
+    padding:0px 20px;
+  }
+  .notep p{
+    padding:0px;
+    font-size:18px;
+  }
+  .form{
+    overflow:hidden;
+    background:none;
+  }
+  .mapb{
+    margin:20px 0px 50px 0px;
+    padding:0px;
+  }
+  .needs-validation{
+    padding-left:50px;
+    padding-right:50px;
+  }
+  .needs-validation h1{
+    margin-bottom:20px;
+  }
+  .form-row{
+    margin:10px 0px;
+  }
+  .form-control{
+    height:50px;
+    padding:10px;
+    margin:0px 10px;
+  }
+  .custom-select{
+    height:50px;
+    padding:10px;
+    margin:0px 10px;
+  }
+  .form .btn{
+    padding:5px 30px;
+    font-size:20px;
+    margin-left:15px;
+    margin-top:5px;
+    margin-bottom:20px;
+    background-color: #443866 !important;
+  }
+  .bottom{
+    background-color:#F5E8DF;
+    padding:30px;
+  }
+  .bottomarea h1{
+    color:#AF8749;
+    text-align:center;
+    font-size:50px;
+  }
+  .bottomarea p{
+    color: rgb(25,25,25);
+    text-align:center;
+    font-weight:500;
+    font-size:22px;
+  }
+  .bottom2{
+    background-color: rgb(245,232,223);
+    padding:30px 10px;
+  }
+  .bottomarea2 img{
+    padding-left:40%;
+  }
+  .box3 ul{
+    list-style:none;
+    margin:20px 5%;
+  }
+  .box3 ul li a{
+    float:left;
+    color: #443866;
+    padding:10px 10px;
+    margin:0px 5px;
+    font-size:20px;
+  }
+  .box4 h4{
+    margin:20px auto 10px auto;
+    text-align:center;
+    font-size:25px;
+    font-weight:600;
+    color: rgb(25,25,25);
+  }
+  .cprt p{
+    color: rgb(25,25,25);
+    text-align:center;
+  }
+  .box5{
+    margin:10px;
+    padding-left:30%;
+    border:none;
+  }
+  .box5 input{
+    width:300px;
+    height:40px;
+    padding:20px 10px;
+    border:none;
+    border-bottom:solid 1px rgb(25,25,25);
+    border-radius:20px;
+    position:relative;
+    right:0;
+    margin-right:-50px;
+
+}
+.box5 input:focus{
+    outline:none;
+}
+.box5 input[type=submit]{
+  width:150px;
+  font-size:18px;
+  padding:0px 20px;
+  color: rgb(245,232,223);
+  background-color: rgb(25,25,25);
+  border:none;
+  border-bottom:none;
+  position:relative;
+  right:0;
+}
+  @media screen and (max-width:900px){
+    .contact{
+      display:block;
+    }
+    .toparea{
+      display:block;
+    }
+    .topareaa img{
+      padding-left:30%;
+    }
+    #navm{
+      background-color: rgb(255,255,255);
+      padding:0px;
+    }
+    .navmenu{
+      padding:0px;
+    }
+    .navbar-nav{
+      margin:10px 0px 0px 0px;
+    }
+    .nav-link{
+      color: rgb(25,25,25) !important;
+    }
+    .nav-link img{
+      display:none;
+    }
+    .slide{
+      height:300px;
+    }
+    .slide img{
+      height:300px;
+    }
+    .box15 h2{
+      font-size:50px;
+  }  
+  .box15 h1{
+      font-size:80px;
+  }
+  .box6{
+      margin:10% 5%;
+    }
+    .box6a{
+      display:none;
+    }
+    .box7{
+      padding:0px;
+    }
+    .section2{
+      height:550px;
+
+    }
+    .section4{
+      height:550px;
+      padding:5%;
+    }
+    .box19{
+      margin:0%;
+    }
+    .box19a{
+      display:none;
+    }
+    .section5{
+      height:600px;
+      padding:5%;
+    }
+    .box20{
+      margin:0%;
+    }
+    .box20a{
+      display:none;
+    }
+    .box18{
+      margin:0%;
+    }
+    .bottomarea2 img{
+      padding:0% 40%;
+    }
+    .box5{
+      padding-left:10%;
+    }
+    .box5 input{
+      width:250px;
+    }
+  }
+  div.container1 ul li a
+  {
+      color: #FFF;
+      text-decoration: none;
+      font-size: 20px;
+      position: relative;
+      z-index: 0;
+      cursor: pointer;
+  }
+  div.circleBehind a:before, div.circleBehind a:after
+  {
+      position: absolute;
+      top: 18px;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      border: 4px solid rgb(55,55,55);
+      transform: translateX(-50%) translateY(-50%) scale(0.8);
+      border-radius: 50%;
+      background: transparent;
+      content: "";
+      opacity: 0;
+      transition: all 0.3s;
+      z-index: -1;
+  }
+  div.container1 .circleBehind img{
+    border:none;
+  }
+  
+  div.circleBehind a:after
+  {
+      border-width: 2px;
+      transition: all 0.4s;
+  }
+  
+  div.circleBehind a:hover:before
+  {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  
+  div.circleBehind a:hover:after
+  {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1.3);
+  }
+  
+  
